@@ -1,5 +1,21 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    
+    <!--page banner-->
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            About Us
+          </h1>
+          <h2 class="subtitle">
+            subtitle?
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!--Add content-->
+
   </div>
 </template>

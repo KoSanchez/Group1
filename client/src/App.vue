@@ -5,13 +5,13 @@
     <div class="navbar">
       <div class="navbar-brand">
         <!--put logo here-->
-        <h1> FOXCYCLE </h1>
+        <h1 class="title is-4"> logo +  foxcycle </h1>
       </div>
       <div class="navbar-menu">
         <div class="navbar-start">
           <router-link class="navbar-item is-tab" to="/" exact-active-class="is-active">Home</router-link> 
           <router-link class="navbar-item is-tab" to="/about" exact-active-class="is-active">About</router-link>
-          <router-link class="navbar-item is-tab" to="/" exact-active-class="is-active">Shop All</router-link>
+          <router-link class="navbar-item is-tab" to="/shopall" exact-active-class="is-active">Shop All</router-link>
           <div class="navbar-item has-dropdown is-hoverable"> 
               <router-link class="navbar-item is-tab " to="/" exact-active-class="is-active">Shop Bikes</router-link>
               <div class="navbar-dropdown">
