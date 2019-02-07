@@ -13,7 +13,7 @@
           <router-link class="navbar-item is-tab" to="/about" exact-active-class="is-active">About</router-link>
           <router-link class="navbar-item is-tab" to="/shopall" exact-active-class="is-active">Shop All</router-link>
           <div class="navbar-item has-dropdown is-hoverable"> 
-              <router-link class="navbar-item is-tab " to="/" exact-active-class="is-active">Shop Bikes</router-link>
+              <router-link class="navbar-item is-tab " to="/shopbikes" exact-active-class="is-active">Shop Bikes</router-link>
               <div class="navbar-dropdown">
                   <router-link class="navbar-item" to="/" exact-active-class="is-active">Mountain</router-link>
                   <router-link class="navbar-item" to="/" exact-active-class="is-active">Path</router-link>
@@ -21,7 +21,7 @@
               </div>
           </div>
           <div class="navbar-item has-dropdown is-hoverable"> 
-              <router-link class="navbar-item is-tab " to="/" exact-active-class="is-active">Shop Parts</router-link>
+              <router-link class="navbar-item is-tab " to="/shopparts" exact-active-class="is-active">Shop Parts</router-link>
               <div class="navbar-dropdown">
                   <router-link class="navbar-item" to="/" exact-active-class="is-active">Idk</router-link>
                   <router-link class="navbar-item" to="/" exact-active-class="is-active">Idk</router-link>
@@ -30,7 +30,7 @@
                   <router-link class="navbar-item" to="/" exact-active-class="is-active">Idk</router-link>
               </div>
           </div>
-          <router-link class="navbar-item is-tab" to="/" exact-active-class="is-active">Services</router-link>
+          <router-link class="navbar-item is-tab" to="/services" exact-active-class="is-active">Services</router-link>
         </div>
         <div class="navbar-end">
           <div class="navbar-item">
