@@ -1,15 +1,15 @@
 <template>
-  <div class="shopparts">
+  <div class="cart">
     
     <!--page banner-->
     <section class="hero">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Shop All Parts
+            Your Cart
           </h1>
           <h2 class="subtitle">
-            subtitle?
+            order summary and stuff
           </h2>
         </div>
       </div>
@@ -21,6 +21,6 @@
 
         </div>
     </section>
-
+    
   </div>
 </template>

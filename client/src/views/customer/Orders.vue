@@ -16,6 +16,15 @@
     </section>
 
     <!--Add the Shopping Links here-->
+    <section class="section">
+        <div class="container">
+            <div class="buttons">
+              <a class="button is-light">
+                Enter Order Number
+              </a>
+            </div>
+        </div>
+    </section>
 
   </div>
 </template>

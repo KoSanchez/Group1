@@ -16,6 +16,11 @@
     </section>
 
     <!--Add content-->
+    <section class="section">
+        <div class="container">
+
+        </div>
+    </section>
 
   </div>
 </template>

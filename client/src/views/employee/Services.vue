@@ -1,21 +1,22 @@
 <template>
-  <div class="shopparts">
-    
+  <div class="services">
+
     <!--page banner-->
     <section class="hero">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Shop All Parts
+            Manage Services
           </h1>
           <h2 class="subtitle">
-            subtitle?
+            put the greeting here??????
           </h2>
         </div>
       </div>
     </section>
 
-    <!--Add content-->
+    <!--Add the Shopping Links here-->
+
     <section class="section">
         <div class="container">
 
