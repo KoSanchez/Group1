@@ -19,9 +19,9 @@
     <section class="section">
       <div class="container">
         <div class="columns">
-          <div class="column">
+          <div class="column is-half">
             <!--not sure how to make this picture larger?????-->
-            <figure class="image is-128x128">
+            <figure class="image is-5by4">
               <img src="https://bulma.io/images/placeholders/128x128.png">
             </figure>
           </div>

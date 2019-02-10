@@ -47,16 +47,18 @@
                 <input class="input" type="text" placeholder="Search">
               </p>
               <p class="control">
-              <button class="button">
                 <a class="button is-light">Search</a>
-              </button>
-            </p>
+              </p>
           </div>
           </div>
           <div class="navbar-item">
             <div class="buttons">
-              <a class="button is-light">Orders</a>
-              <a class="button is-light">Cart</a>
+              <router-link class="navbar-item" to="/orders" exact-active-class="is-active">
+                <a class="button is-light">Orders</a>
+              </router-link>
+              <router-link class="navbar-item" to="/cart" exact-active-class="is-active">
+                <a class="button is-light">Cart</a>
+              </router-link>
             </div>
           </div>
         </div>

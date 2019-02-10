@@ -56,14 +56,18 @@ export default new Router({
           component: () =>
             import(/* webpackChunkName: "about" */ "./views/customer/Services.vue")
         },
-        /*
         {
           path: "/orders",
           name: "orders",
           component: () =>
-            import("./views/customer/Orders.vue")
+            import(/* webpackChunkName: "about" */ "./views/customer/Orders.vue")
         },
-        */
+        {
+          path: "/cart",
+          name: "cart",
+          component: () =>
+            import(/* webpackChunkName: "about" */ "./views/customer/Cart.vue")
+        },
       ]
     },
    
