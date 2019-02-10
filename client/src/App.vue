@@ -10,6 +10,7 @@
 </template>
 
 <script lang="ts">
+import axios from "axios";
 import Vue from "vue";
 
 export default class App extends Vue {}
